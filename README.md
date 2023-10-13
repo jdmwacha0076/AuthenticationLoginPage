@@ -9,9 +9,6 @@ This project provides a universal solution for user registration and login featu
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [Built With](#built-with)
-- [Authors](#authors)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Prerequisites
 
@@ -38,23 +35,19 @@ This project provides a universal solution for user registration and login featu
 
 3. **Update Configuration:**
 
-   - In the `signup.php` file at line 24, update the following line with the actual name of your database:
+   - In the `signup.php` file, update the following line with the actual name of your database:
 
      ```php
      $dbname = "database"; // Replace "database" with your actual database name
      ```
 
-   - Similarly, in the `index.php` file at line 21, replace "database" with your actual database name:
+   - Similarly, in the `index.php`, replace "database" with your actual database name:
 
      ```php
      $dbname = "database"; // Replace "database" with your actual database name
      ```
 
    - In the `index.php` file at line 42, update the `header('Location: home.php');` line with the actual path you want users to go after a successful login.
-
-4. **Deploy the Project:**
-
-   Upload the project files to your web server or hosting environment.
 
 ## Usage
 
@@ -64,18 +57,3 @@ Users can now access your registration and login system through the `signup.php`
 
 - PHP
 - MySQL
-
-## Authors
-
-- [Your Name](https://github.com/yourusername)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- [Bootstrap](https://getbootstrap.com/) for the front-end framework.
-```
-
-Feel free to replace the placeholders with actual data and links to your GitHub profile or other relevant resources.
